@@ -1,0 +1,193 @@
+.services_320{
+  /* width: 100%; */
+  background-color: #F8F8F8;
+  /* display: flex; */
+  align-items: center;
+  flex-direction: column;
+}
+
+/* .container-slider{
+  display: none !important;
+} */
+.container-slider{
+  width: 320px;
+  /* border: 2px solid indigo; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #F8F8F8;
+}
+.container-slider__head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 80px;
+  background: linear-gradient(270deg, #FFFFFF  0%,  #F8F8F8 98.61%);
+}
+.container-slider__head h1{
+  width: 288px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: TT Lakes;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: -0.2000000029802322px;
+  text-align: left;
+  color: #7E7E82;
+  /* border: 2px solid indigo; */
+}
+
+.swiper {
+width: 320px;
+height: 154px;
+/* border: 2px solid pink; */
+padding: 15px 0 0 15px;
+}
+
+.swiper .swiper-pagination-bullet{
+  width: 15px;
+  height: 15px;
+  background-color: #B5B6BC;
+  transform: translate(-5px,-20px);
+}
+.swiper .swiper-pagination .swiper-pagination-bullet {
+  margin: 0 0px 0 10px;
+}
+
+.swiper-button-next{
+  width: 40px;
+  height: 40px;
+  transform: translate(-68px,-22px);
+}
+.swiper .swiper-button-next::after{
+  background-image: url("https://kukufc1.github.io/KaTaslider//src/img/dropdown.png");
+}
+.swiper .swiper-button-next::after{
+content: " ";
+width: 40px;
+height: 40px;
+font-size: 80px;
+border: 2px solid #FF3E79;
+border-radius: 50%;
+background-repeat: no-repeat;
+background-position: 50% 50%;
+}
+.image-slider__image{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+padding: 0 0px 0 10px;
+width: 240px;
+height: 72px;
+border-radius: 6px;
+border: 1px solid #EAEAEA;
+background-color: #fff;
+}
+
+
+
+
+
+/* паказать скрыть */
+.container {
+    width: 100%;
+    min-width: 320px;
+    max-width: 1120px;
+    display: flex;
+    flex-direction: column;
+    background: #F8F8F8;
+    padding-bottom: 5vh;
+    padding-left: 5px;
+}
+.head-link{
+  width: 100%;
+  min-width: 320px;
+  max-width: 1120px;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+  background: linear-gradient(270deg, #FFFFFF  0%,  #F8F8F8 98.61%);
+}
+.head-link > div{
+  font-family: TT Lakes;
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  /* padding-top: 30px; */
+  color: #7E7E82;
+  /* border: 2px solid pink; */
+}
+.link_flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.link{
+  /* display: flex; */
+}
+#links {
+    margin-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.block-link{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 224px;
+  height: 72px;
+  margin: 20px 10px;
+  border: 1px solid #EAEAEA;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.block-link__image{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  transform: translate(20px,0px);
+}
+
+.block-link__btn{
+  width: 40px;
+  height: 40px;
+  border: 2px solid #FF3E79;
+  border-radius: 50%;
+  background-image: url("https://kukufc1.github.io/KaTaslider//src/img/dropdown.png");
+  background-repeat: no-repeat;
+  background-position: 50%  50%;
+  transform: translate(-20px,0px);
+}
+.container-link__btn{
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(50, 50, 50, 0.0);
+  margin-left: 0.8em;
+  padding-left:25px;
+  white-space: nowrap;
+  background-image: url("https://kukufc1.github.io/KaTa//src/img/icon.png");
+}
+.container-link__btn::first-line{
+  font-family: TT Lakes;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+}

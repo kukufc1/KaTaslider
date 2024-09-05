@@ -1,0 +1,50 @@
+
+
+@media (min-width: 320px) and (max-width: 340px){
+.container-slider{
+  display: block;
+}
+.container{
+  display: none;
+}
+   /*Cтиль будет применяться, если ширина окна браузера больше 321 пикселей*/
+}
+
+
+@media (min-width: 340px) and (max-width: 768px){
+.container{
+  display: block;
+}
+.container-slider{
+  display: none;
+}
+/* .block-link{
+  margin: 2vh;
+
+} */
+   /*Cтиль будет применяться, если ширина окна браузера больше 321 пикселей*/
+}
+
+
+@media (min-width: 768px){
+  .container-slider{
+    display: none;
+  }
+  .block-link{
+    /* margin: 3vh; */
+
+  }
+/*Cтиль будет применяться, если ширина окна браузера больше 769 пикселей*/
+}
+
+
+@media (min-width: 1120px){
+  .container-slider{
+    display: none;
+  }
+  .block-link{
+    margin: 4vh;
+
+  }
+/*Cтиль будет применяться, если ширина окна браузера больше 1120 пикселей*/
+}
